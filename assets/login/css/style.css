@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Sans-serif;
+}
+
+#wrap {
+	margin: 0 auto 30px;
+}
+
+#regbar {
+	height: 40px;
+	background: #009000;
+	padding: 10px 15px;
+}
+
+h3 {
+	position:absolute right;
+	padding: 7px 50px;
+	color: #ecf0f1;
+	float:right;
+}
+
+.brand {
+	position:absolute;
+	padding: 7px;
+	color: #ecf0f1;
+	font-weight:bold;
+	font-size:20px;
+}
+
+#regbar img{
+	padding-top: 0px;
+	padding-left:50px;
+}
+
+#bottom {
+	position: fixed;
+	right:-32px;
+	bottom:-45px;
+}
+
+img{
+	opacity: 0.8;
+}
+
+fieldset {
+	border: none;
+}
+
+.login {
+	position: absolute;
+	right:0%;
+	width: 350px;
+	display: none;
+	padding:15px 45px;
+	margin-top: 5px;
+}
+
+.arrow-up {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 15px solid #ECF0F1;
+	padding-top:15px;
+	right: 13%;
+	position: absolute;
+	top: -10px;
+}
+
+.formholder {
+	background: #ecf0f1;
+	width: 350px;
+	border-radius: 5px;
+	padding-top: 5px;
+}
+.formholder input[type="text"], .formholder input[type="password"] {
+	padding: 7px 5px;
+	margin: 10px 0;
+	width: 96%;
+	display: block;
+	font-size: 18px;
+	border-radius: 5px;
+	border: none;
+	-webkit-transition: 0.3s linear;
+	-moz-transition: 0.3s linear;
+	-o-transition: 0.3s linear;
+	transition: 0.3s linear;
+}
+.formholder input[type="text"]:focus, .formholder input[type="password"]:focus {
+	outline: none;
+	box-shadow: 0 0 1px 1px #009000;
+}
+.formholder input[type="submit"] {
+	background: #009000;
+	padding: 10px;
+	font-size: 20px;
+	display: block;
+	width: 100%;
+	border: none;
+	color: #fff;
+	border-radius: 5px;
+}
+.formholder input[type="submit"]:hover {
+	background: #009000;
+}
+
+.randompad {
+	padding: 10px;
+}
+
+.green {
+	color: #1abc9c;
+}
+
+a {
+	color: #ecf0f1;
+	text-decoration: none;
+}
+a:hover {
+	color: #1abc9c;
+}
